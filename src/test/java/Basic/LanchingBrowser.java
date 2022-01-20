@@ -21,5 +21,6 @@ public class LanchingBrowser {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.google.com");
 		driver.findElement(By.name("q")).sendKeys("selenium");
+		driver.quit();
 	}
 }

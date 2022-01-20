@@ -23,5 +23,6 @@ public class Lanch_2 {
 		search_bar.sendKeys("Darshan thoogudeepa");
 		search_bar.sendKeys(Keys.ENTER);
 		System.out.println("Hello jenkins");
+		driver.quit();
 	}
 }
