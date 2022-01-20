@@ -12,4 +12,9 @@
 			<class name="Basic.Lanch_2" />
 		</classes>
 	</test> <!-- Test -->
+	<test  name="Edge test">
+		<classes>
+			<class name="Basic.Fail_Test" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
