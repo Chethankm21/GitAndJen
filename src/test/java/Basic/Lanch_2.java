@@ -7,9 +7,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+@Test
 public class Lanch_2 {
 	public void lanch() {
 		WebDriverManager.chromedriver().setup();
@@ -21,5 +22,6 @@ public class Lanch_2 {
 		WebElement search_bar = driver.findElement(By.name("q"));
 		search_bar.sendKeys("Darshan thoogudeepa");
 		search_bar.sendKeys(Keys.ENTER);
+		System.out.println("Hello jenkins");
 	}
 }
