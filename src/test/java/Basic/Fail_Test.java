@@ -18,7 +18,8 @@ public class Fail_Test {
 		 
 		 driver.get("https://www.google.com");
 		 driver.findElement(By.name("q")).sendKeys("Hello jenkins");
-		 Assert.fail();
+		 System.out.println("Edge driver is working........");
+		 driver.quit();
 		 
 	}
 
